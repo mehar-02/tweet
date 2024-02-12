@@ -1,0 +1,25 @@
+.input-header {
+    display:flex;
+    justify-content:flex-start;
+    margin: 10px;
+    border:2px solid #eee;
+    border-radius:7px; 
+    align-items:center;
+    margin-left:2rem;
+    width:60vw;
+    min-width: 218px;
+}
+.head-top{
+    background-color: #eee;
+}
+@media only screen and (max-width: 320px){
+    .input-header{
+        margin-left: 10px;
+        width: 80vw;
+        /* justify-content: center; */
+    }
+    .head-top{
+        display: flex;
+        justify-content: center;
+    }
+}

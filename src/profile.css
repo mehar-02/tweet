@@ -1,0 +1,9 @@
+.pro {
+    height: 4rem !important;
+    width: 3rem;
+}
+.NavbarRightSection{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
