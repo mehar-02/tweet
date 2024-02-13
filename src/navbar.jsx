@@ -1,4 +1,5 @@
-import { Navbar} from '@attrybtech/attryb-ui';
+// import { Navbar} from '@attrybtech/attryb-ui';
+import Navbar from "./nav2.jsx";
 import React, {useState} from "react";
 import Alert from "./alert.jsx";
 

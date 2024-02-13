@@ -1,21 +1,22 @@
 .input-header {
     display:flex;
     justify-content:flex-start;
-    margin: 10px;
+    /* margin: 10px; */
     border:2px solid #eee;
-    border-radius:7px; 
+    /* border-radius:7px;  */
+    background-color: #eee;
     align-items:center;
     margin-left:2rem;
-    width:60vw;
-    min-width: 218px;
+    /* width:60vw; */
+    min-width: 226px;
 }
-.head-top{
+/* .head-top{
     background-color: #eee;
-}
+} */
 @media only screen and (max-width: 320px){
     .input-header{
-        margin-left: 10px;
-        width: 80vw;
+        margin: 10px;
+        width: 100vw;
         /* justify-content: center; */
     }
     .head-top{

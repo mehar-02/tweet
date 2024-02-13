@@ -1,3 +1,6 @@
+/* @media only screen and (max-width: 600px) {
+    width: 100vh;
+} */
 @media only screen and (max-width: 500px){
     .btn {
         display: none;

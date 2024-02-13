@@ -4,7 +4,8 @@ import Profile from './profile.jsx';
 import './header.css';
 function Header({input}) {
     return (
-        <div className="head-top">
+        <div style={{display:'flex', justifyContent:'center',margin:'10px'}}>
+        <div className="head-top" style={{width: '80vw', minWidth:'226px'}}>
             
           <div className="Doc DocAlertPopup input-header">
             {/* <h1>Main Header</h1> */}
@@ -15,6 +16,7 @@ function Header({input}) {
                 </div>
             </div>
         </div>
+       </div>
        </div>
       );
 }
