@@ -7,7 +7,7 @@ function Header({input}) {
         <div style={{display:'flex', justifyContent:'center',margin:'10px'}}>
         <div className="head-top">
             
-          <div className="Doc DocAlertPopup input-header">
+          <div className="Doc DocAlertPopup input-header" style={{alignItems:'center'}}>
             {/* <h1>Main Header</h1> */}
             <Profile />
             <div className="DocEntry" style={{margin:'0px'}} >
