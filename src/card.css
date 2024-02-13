@@ -2,9 +2,9 @@
     /* position: fixed; */
     /* height: 300px; */
 /* }  */
-.card-main{
+/* .card-main{
     
-}
+} */
 .card-alert {
     border: 2px solid #eee; 
     /* border-radius: 7px; */
@@ -55,7 +55,9 @@
         left: 3rem;
     }
 }
-@media only screen and (max-width: 320px) {
+
+
+@media only screen and (max-width: 500px) {
     /* .DocAlertPopup {
         min-width: 5rem;
     } */

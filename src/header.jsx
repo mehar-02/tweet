@@ -5,7 +5,7 @@ import './header.css';
 function Header({input}) {
     return (
         <div style={{display:'flex', justifyContent:'center',margin:'10px'}}>
-        <div className="head-top" style={{width: '80vw', minWidth:'226px'}}>
+        <div className="head-top">
             
           <div className="Doc DocAlertPopup input-header">
             {/* <h1>Main Header</h1> */}

@@ -39,8 +39,9 @@
 
 .main-page {
   display: flex;
+  overflow: hidden;
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 500px){
    .main-page {
     display:flex;
     flex-direction: column;
